@@ -44,7 +44,7 @@ body{
         font-size: clamp(1.5rem, 1.7rem, 1rem);
     }
 
-    @media screen  and (max-width:414px ){
+    @media screen  and (max-width:767px ){
         justify-content: space-between;
         padding-left: 2.5rem;
         padding-right: 2.5rem;
@@ -75,7 +75,7 @@ body{
         position: relative;
         background-color: #81c1322b;
 
-        @media screen and (max-width:414px ){
+        @media screen and (max-width:767px ){
             width: 80vw;
             height: 70vh;
         }
@@ -131,7 +131,7 @@ body{
 
                 p{
                     font-size: 72px;
-                     @media screen and (max-width:414px ){
+                     @media screen and (max-width:767px ){
                     font-size: 32px;
                 }
                 }
@@ -149,7 +149,7 @@ body{
             font-size: 12px;
             letter-spacing: 3px;
 
-            @media screen and (max-width: 414px ){
+            @media screen and (max-width: 767px ){
                 width: 37vw;
             }
         }
@@ -172,7 +172,7 @@ body{
         color: #111111;
     }
 
-    @media screen and  (max-width:414px ){
+    @media screen and  (max-width:767px ){
             display: flex;
             flex-direction: column;
             width: 100%;
@@ -189,21 +189,22 @@ body{
     gap: 3rem;
     position: relative;
 
-    @media screen and (max-width:414px ){
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            height: 80vh;
-        }
+    @media screen and (max-width:767px ){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 151vh;
+    }
+        
     
 
     img{
-        height: 70vh;
+        height: 89vh;
         box-shadow: 0 0 40px 0 rgba(26, 26, 26, 0.4);;
 
-        @media screen and (max-width:414px ){
-            height:50vh;
+        @media screen and (max-width:767px ){
+            height:73vh;
             order: 2;
             width: 80%;
         }
@@ -242,18 +243,22 @@ body{
             font-size: 15.5px;
         }
 
-        @media screen and (max-width:414px ){
+        @media screen and (max-width:767px ){
             order: 1;
-            width: 80%;
+            width: 88%;
 
             header{
                 width: 100%;
-                font-size: 32px;
+                font-size: 24px;
+            }
+
+            hr{
+                width: 15%;
             }
 
             article{
-                font-size: 20px;
-                line-height: 1.7rem;
+                width: 100%;
+                font-size: 13px;
             }
         }
     }
@@ -265,7 +270,7 @@ body{
     display: flex;
     position: relative;
 
-    @media screen and (max-width: 414px ){
+    @media screen and (max-width: 767px ){
         width: 100%;
         height: 200vh;
         display: flex;
@@ -299,13 +304,13 @@ body{
             font-family: "Merriweather", serif;
         }
 
-        @media  screen and (max-width: 414px ) {
+        @media  screen and (max-width: 767px ) {
             position: relative;
-            top: -80px;
-            width: 70%;
+            top: -216px;
+            width: 77%;
             height: 12%;
             justify-content: flex-start;
-           order:2;
+            order: 2;
 
            i{
             font-size: 2rem;
@@ -329,12 +334,12 @@ body{
         bottom: 135px;
         right: 160px;
 
-        @media screen and (max-width: 414px ) {
+        @media screen and (max-width: 767px ) {
             position: relative;
             width: 65%;
-            height: 71vh;
+            height: 53vh;
             order: 1;
-            bottom: 9rem;
+            bottom: 16rem;
             right: -15px;
         }
         
@@ -380,11 +385,11 @@ body{
             font-size: 15.5px;
         }
 
-        @media screen and (max-width:414px ) {
+        @media screen and (max-width:767px ) {
             position: relative;
             right: 0;
-            top: -20px;
-            width: 60%;
+            top: -120px;
+            width: 80%;
             order: 3;
             height: 40vh;
             bottom: 200px;
@@ -395,8 +400,12 @@ body{
             }
 
             section{
-                font-size: 20px;
+                font-size: 17px;
                 line-height: 1.5rem;
+            }
+
+            hr{
+                width: 15%;
             }
         }
 
@@ -413,11 +422,11 @@ body{
     padding-top: 1rem;
     position: relative;
 
-   @media screen  and (max-width:414px ){
+   @media screen  and (max-width:767px ){
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    top: -30px;
+    top: -207px;
     height:  100vh;
    }
 
@@ -450,19 +459,23 @@ body{
             line-height: 1.4rem;
         }
 
-        @media screen and (max-width: 414px ) {
-            width: 80%;
+        @media screen and (max-width: 767px ) {
+            width: 90%;
             order: 2;
             position: relative;
             bottom: 65px;
 
             section{
-                font-size: 32px;
+                font-size: 25px;
+            }
+
+            hr{
+                width:15%;
             }
 
             article{
-                width: 100%;
-                font-size: 19px;
+                width: 77vw;
+                font-size: 14px;
             }
 
             
@@ -484,13 +497,13 @@ body{
                height: 100%;
             }
 
-            @media screen and (max-width: 414px ) {
+            @media screen and (max-width: 767px ) {
                 position: relative;
-                left: 20px;
-                width: 60%;
-                height: 70%;
-                background-color: #bebdbd;
-                display: block;
+            left: 20px;
+            width: 100%;
+            height: 64%;
+            background-color: #bebdbd;
+            display: block;
                }
             
 
@@ -502,12 +515,12 @@ body{
                top: 175px;
                right: 60px;
 
-               @media screen and (max-width: 414px ) {
-                                position: absolute;
-                top: 252px;
-                right: 159px;
+               @media screen and (max-width: 767px ) {
+                position: absolute;
+                top: 227px;
+                right: 99px;
                 height: 54vh;
-                width: 85%;
+                width: 88%;
                }
             }
 
@@ -517,13 +530,13 @@ body{
             position: absolute;
             top: -200px;
             left: 150px;
-            @media screen and (max-width: 414px ) {
-                width: 90%;
-                left: 86px;
+            @media screen and (max-width: 767px ) {
+               width: 90%;
+                left: 37px;
                 position: absolute;
-                right: 22px;
+                right: 14px;
                 top: -152px;
-                height: 80vh;
+                height: 66vh;
             }
             }
 
