@@ -176,7 +176,7 @@ body{
             display: flex;
             flex-direction: column;
             width: 100%;
-            height: 457vh;
+            height: 496vh;
             padding-top: 15rem;
         }
 }
@@ -205,7 +205,7 @@ body{
         @media screen and (max-width:767px){
             height:50vh;
             order: 2;
-            width: 60%;
+            width: 80%;
         }
     }
 
@@ -244,7 +244,17 @@ body{
 
         @media screen and (max-width:767px){
             order: 1;
-            width: 60%;
+            width: 80%;
+
+            header{
+                width: 100%;
+                font-size: 32px;
+            }
+
+            article{
+                font-size: 20px;
+                line-height: 1.7rem;
+            }
         }
     }
 }
@@ -257,7 +267,7 @@ body{
 
     @media screen and (max-width: 767px){
         width: 100%;
-        height: 100vh;
+        height: 200vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -292,7 +302,7 @@ body{
         @media  screen and (max-width: 767px) {
             position: relative;
             top: -80px;
-            width: 45%;
+            width: 70%;
             height: 12%;
             justify-content: flex-start;
            order:2;
@@ -300,10 +310,11 @@ body{
            i{
             font-size: 2rem;
             top: 0;
+            opacity: 0.2;
            }
 
            p{
-            font-size: 20px;
+            font-size: 30px;
            }
 
         }
@@ -320,10 +331,10 @@ body{
 
         @media screen and (max-width: 767px) {
             position: relative;
-            width: 45%;
-            height: 55vh;
+            width: 65%;
+            height: 71vh;
             order: 1;
-            bottom: 6rem;
+            bottom: 9rem;
             right: -15px;
         }
         
@@ -373,18 +384,19 @@ body{
             position: relative;
             right: 0;
             top: -20px;
-            width: 45%;
+            width: 60%;
             order: 3;
-            height: 30vh;
+            height: 40vh;
             bottom: 200px;
+            padding-top: 2rem;
 
             h3{
-                font-size: 30px;
+                font-size: 35px;
             }
 
             section{
-                font-size: 14px;
-                line-height: 1.2rem;
+                font-size: 20px;
+                line-height: 1.5rem;
             }
         }
 
@@ -405,7 +417,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    top: 350px;
+    top: -30px;
     height:  100vh;
    }
 
@@ -439,13 +451,18 @@ body{
         }
 
         @media screen and (max-width: 767px) {
-            width: 62%;
+            width: 80%;
             order: 2;
             position: relative;
             bottom: 65px;
 
             section{
-                font-size: 26px;
+                font-size: 32px;
+            }
+
+            article{
+                width: 100%;
+                font-size: 19px;
             }
 
             
@@ -470,8 +487,8 @@ body{
             @media screen and (max-width: 767px) {
                 position: relative;
                 left: 20px;
-                width: 50%;
-                height: 60%;
+                width: 60%;
+                height: 70%;
                 background-color: #bebdbd;
                 display: block;
                }
@@ -486,9 +503,11 @@ body{
                right: 60px;
 
                @media screen and (max-width: 767px) {
-                position: absolute;
-                top: 213px;
-                height: 43vh;
+                                position: absolute;
+                top: 252px;
+                right: 159px;
+                height: 54vh;
+                width: 85%;
                }
             }
 
@@ -499,11 +518,12 @@ body{
             top: -200px;
             left: 150px;
             @media screen and (max-width: 767px) {
-                width: 100%;
-                left: 25px;
+                width: 90%;
+                left: 86px;
                 position: absolute;
-                right: 25px;
-                top: -132px;
+                right: 22px;
+                top: -152px;
+                height: 80vh;
             }
             }
 
