@@ -13,14 +13,14 @@ body{
 }
 
 .partOne{
-    width:100vw;
+    width:100%;
     background-color:aquamarine;
     display: flex;
     flex-direction: column;
 }
 
 .partOne header{
-    width: 100vw;
+    width: 100%;
     height: 10vh;
     max-height: 10%;
     display: flex;
@@ -54,7 +54,7 @@ body{
 }
 
 .partOne main{
-    width: 100vw;
+    width: 100%;
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -156,4 +156,358 @@ body{
     }
 
    
+}
+
+.partTwo{
+    width: 100%;
+    height: 250vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    position: relative;
+
+    p{
+        color: #111111;
+    }
+
+    @media screen and (max-width:767px){
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 457vh;
+            padding-top: 15rem;
+        }
+}
+
+.partTwo .firstSection{
+    width: 70vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    position: relative;
+
+    @media screen and (max-width:767px){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: 80vh;
+        }
+    
+
+    img{
+        height: 70vh;
+        box-shadow: 0 0 40px 0 rgba(26, 26, 26, 0.4);;
+
+        @media screen and (max-width:767px){
+            height:50vh;
+            order: 2;
+            width: 60%;
+        }
+    }
+
+    .skyMountainTree{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 4rem;
+
+        header{
+            width: 100%;
+            font-family: "Merriweather", serif;
+            font-size: 36px;
+            padding-bottom: 1.2rem;
+        }
+
+        hr{
+            width: 4vw;
+            align-self: flex-start;
+            height: 3px;
+            background-color: #81c132;
+            border: 0;
+
+        }
+
+        article{
+            width: 100%;
+            padding-top: 1.2rem;
+            line-height: 1.5rem;
+            font-family: "Open Sans", sans-serif;
+            font-size: 15.5px;
+        }
+
+        @media screen and (max-width:767px){
+            order: 1;
+            width: 60%;
+        }
+    }
+}
+
+.partTwo .middleSection{
+    width: 70vw; 
+    height: 70vh;
+    display: flex;
+    position: relative;
+
+    @media screen and (max-width: 767px){
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 200px;
+    }
+
+    
+
+    .beautifulWorld{
+        width: 18vw;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        top: 53px;
+
+        i{
+           font-size: 3.5rem;
+            opacity: 0.3;
+            position: absolute;
+            top: 26px;
+            left: -10px
+
+
+        }
+
+        p{
+            font-family: "Merriweather", serif;
+        }
+
+        @media  screen and (max-width: 767px) {
+            position: relative;
+            top: -80px;
+            width: 45%;
+            height: 12%;
+            justify-content: flex-start;
+           order:2;
+
+           i{
+            font-size: 2rem;
+            top: 0;
+           }
+
+           p{
+            font-size: 20px;
+           }
+
+        }
+
+        
+    }
+
+    img{
+        width: 35vw;
+        box-shadow:  0 0 31px 0 rgba(26, 26, 26, 0.55);
+        position: absolute;
+        bottom: 135px;
+        right: 160px;
+
+        @media screen and (max-width: 767px) {
+            position: relative;
+            width: 45%;
+            height: 55vh;
+            order: 1;
+            bottom: 6rem;
+            right: -15px;
+        }
+        
+
+      
+
+    }
+
+    .unseenBeauty{
+        width: 24vw;
+        height: 34vh;
+        padding-left: 1.6rem;
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: absolute;
+        bottom: 200px;
+        right: -150px;
+
+        h3{
+            font-family: "Merriweather", serif;
+            font-size: 36px;
+            font-weight: 500;
+            padding-bottom: 1.2rem;
+            
+        }
+
+         hr{
+            width: 4vw;
+            align-self: flex-start;
+            height: 3px;
+            background-color: #81c132;
+            border: 0;
+
+        }
+
+        section{
+            width: 100%;
+            padding-top: 1.2rem;
+            line-height: 1.5rem;
+            font-family: "Open Sans", sans-serif;
+            font-size: 15.5px;
+        }
+
+        @media screen and (max-width:767px) {
+            position: relative;
+            right: 0;
+            top: -20px;
+            width: 45%;
+            order: 3;
+            height: 30vh;
+            bottom: 200px;
+
+            h3{
+                font-size: 30px;
+            }
+
+            section{
+                font-size: 14px;
+                line-height: 1.2rem;
+            }
+        }
+
+        
+    }
+}
+
+.partTwo .lastSection{
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    gap: 23.5rem;
+    padding-top: 1rem;
+    position: relative;
+
+   @media screen  and (max-width:767px){
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 350px;
+    height:  100vh;
+   }
+
+    .leftPart{
+        width: 37vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        section{
+            font-family: "Merriweather", serif;
+            font-size: 36px;
+            padding-bottom: 1.2rem;
+        }
+
+        hr{
+            width: 4vw;
+            align-self: flex-start;
+            height: 3px;
+            background-color: #81c132;
+            border: 0;
+        }
+
+        article{
+            padding-top: 1.2rem;
+            line-height: 1.5rem;
+            font-family: "Open Sans", sans-serif;
+            font-size: 15.5px;
+            line-height: 1.4rem;
+        }
+
+        @media screen and (max-width: 767px) {
+            width: 62%;
+            order: 2;
+            position: relative;
+            bottom: 65px;
+
+            section{
+                font-size: 26px;
+            }
+
+            
+        }
+
+        
+    }
+
+    .rightPart{
+        width: 33vw;
+        height: 80%;
+        background-color: #bebdbd;
+        position: relative;
+               right: 40px;
+
+
+            .firstLayer{
+               width: 100%;
+               height: 100%;
+            }
+
+            @media screen and (max-width: 767px) {
+                position: relative;
+                left: 20px;
+                width: 50%;
+                height: 60%;
+                background-color: #bebdbd;
+                display: block;
+               }
+            
+
+            .secondLayer img{
+                right: 130px;
+               width: 33vw;
+               height: 40vh;
+               position: absolute;
+               top: 175px;
+               right: 60px;
+
+               @media screen and (max-width: 767px) {
+                position: absolute;
+                top: 213px;
+                height: 43vh;
+               }
+            }
+
+            .outerLayer img{
+            width: 24vw;
+            height: 60vh;
+            position: absolute;
+            top: -200px;
+            left: 150px;
+            @media screen and (max-width: 767px) {
+                width: 100%;
+                left: 25px;
+                position: absolute;
+                right: 25px;
+                top: -132px;
+            }
+            }
+
+            
+        }
+    
 }
